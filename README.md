@@ -8,5 +8,7 @@ Password Generator app should follow following criteria once generate password b
     3) PROMPT user with password length option between 8 and 128 character.
     4) should user insert option outside password length then ALERT user to choose correct password length.
 
+<img src="Assets/03-javascript-homework-demo.png" width="400">
+
 ![](Assets/03-javascript-homework-demo.png)
     
