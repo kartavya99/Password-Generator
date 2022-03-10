@@ -1,13 +1,30 @@
 
-  //  presented with a series of prompts for password criteria and alert for user to choose at least one character type.
-  //  length of the password 8 to 128 characters - creat length limit between 8 to 128 character and also alert for the user to select the correct length.
-  //  include lowercase, uppercase, numeric, and/or special characters - create arrays of all
-    //  input should validate one character type 
-  // password is either displayed in an alert of written to the page
+// Acceptance criteria 
+// GIVEN I need a new, secure password 
+// WHEN I click the button to generate a password - THEN I am presented with a series of prompts for password criteria
+// WHEN prompted for password criteria - THEN I select which criteria to include in the password
+// WHEN prompted for the length of the password - THEN I choose a length of at least 8 characters and no more than 128 characters
+// WHEN asked for character types to include in the password - THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+// WHEN I answer each prompt - THEN my input should be validated and at least one character type should be selected
+// WHEN all prompts are answered - THEN a password is generated that matches the selected criteria
+// WHEN the password is generated - THEN the password is either displayed in an alert or written to the page
+  
+//-----------------------------------------------------------------------------------------------------------------------------------------------  
+// Pseudocode
 
+  // create arrays for lowercase, uppercase, numbers and symbol
+  // ask users for different prompts with boolean value to record their choices for password options for character
+  // with no option selected, alert user to choose at least one character type.
+  // prompt user to choose password length between 8 and 128 character 
+  // Alert user when password length when password length incorrect
+  // to store all four arrays data into one arrays to choose random password therefore create empty array and merge all four arrays.
+  // next step is to creat random password from empty array with math.random method.
+  // finally random password should be created.
+  
+//-------------------------------------------------------------------------------------------------------------------------------------------------
 
   // below is the arrays for the character type
-  //------------------------------------------------------------------------------
+ 
   var lowercase = ["a" , "b" , "c", "d", "e", "f" , "g" , "h" , "i" , "j" , "k" , "l" , "m" , "n" , "o" , "p" , "q" , "r", "s" , "t" , "u" , "v" , "y" , "z" ];
 
   var uppercase = [ "A" , "B" , "C" , "D" , "E", "F" , "G" , "H" , "I" , "J" , "K" , "L" , "M", "N" , 'O' , "P" , "Q" , "R" , "S" , "T", "U", "V", "Y", "Z"];
