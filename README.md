@@ -10,5 +10,4 @@ Password Generator app should follow following criteria once generate password b
 
 <img src="Assets/03-javascript-homework-demo.png" width="400">
 
-![](Assets/03-javascript-homework-demo.png)
-    
+above is the screen shot of the password generator app.
